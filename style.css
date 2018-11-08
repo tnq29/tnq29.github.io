@@ -1,0 +1,19 @@
+body{
+	overflow-y: auto;	
+}
+
+nav li {
+	padding-right: 11px;
+}
+
+nav button {
+	padding-right: 10px;
+}
+
+#btn_login {
+	margin-left: 10px;
+}
+
+.carousel-inner {
+	
+}
