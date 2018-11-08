@@ -10,39 +10,39 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
-<body bgcolor="#fefcff">
-	<div class="container-fluid">
-		<nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark  justify-content-center">
+<body bgcolor="#fefcff" style="height: 3000;">
+	<div>
+		<nav class="navbar navbar-expand-sm navbar-dark justify-content-center bg-light fixed-top">
 			<a class="navbar-brand" href="#">
-				<img src="src/bg.jpg" style="width: 71px; height:30px; ">
+				<img src="src/logo.png" style="width: 71px; height:30px; ">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            	<span class="navbar-toggler-icon"></span>
+            	<span class="navbar-toggler-icon bg-info"></span>
          	</button>
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav">
 		  			<li class="nav-item">
-		  				<a href="#" class="nav-link text-dark" >Món chính </a>
+		  				<a href="#" class="nav-link text-dark" >MÓN CHÍNH </a>
 		  			</li>
 		  			<li class="nav-item">
-		  				<a href="#" class="nav-link text-dark ">Món ăn vặt </a>
+		  				<a href="#" class="nav-link text-dark ">MÓN ĂN VẶT </a>
 		  			</li>
 		  			<li class="nav-item">
-		  				<a href="#" class="nav-link text-dark ">Đồ uống </a>
+		  				<a href="#" class="nav-link text-dark ">ĐỒ UỐNG</a>
 		  			</li>
 		  			<li class="nav-item">
-		  				<a href="#" class="nav-link text-dark">Món chay </a>
+		  				<a href="#" class="nav-link text-dark">MÓN CHAY<span style="height: 13px; " class="badge badge-light text-warning"><b>NEW</b></span></a>
 		  			</li>
 		  		</ul>
 	  		</div>
-			<form class="form-inline" >
-	   		    <input class="form-control form-control-sm mr-sm-2" style="width: 320px;" type="text" placeholder="Tìm kiếm địa điểm ăn uống tại Đà Nẵng ...">
-	    		<button class="btn btn-secondary btn-sm" type="submit">Search</button>
+			<form class="form-inline nav-item" >
+	   		    <input class="nav-link form-control form-control-sm mr-sm-2" style="width: 200px; height: 28px;" type="text" placeholder="">
+	    		<button class="nav-link-sm btn btn-secondary btn-sm" type="submit">SEARCH</button>
 	  		</form>
-	  		<button id="btn_login" class="btn btn-info btn-sm" type="submit">Đăng nhập</button>
+	  		<button id="btn_login" class="btn btn-info btn-sm nav-item-sm" type="submit">ĐĂNG NHẬP</button>
 		</nav>
 		</div>
-		<div id="demo" class="carousel slide" data-ride="carousel">
+		<div id="demo" class="carousel slide container-fluid" style="margin-top: 48px;" data-ride="carousel">
 		  <ul class="carousel-indicators">
 		    <li data-target="#demo" data-slide-to="0" class="active"></li>
 		    <li data-target="#demo" data-slide-to="1"></li>
@@ -51,25 +51,44 @@
 		  </ul>
 	    <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img style="width: 1330px; height: 568px" src="src/slide11.jpg" alt="Slide1">
+		      <img style="width: 1374px; height: 573px" src="src/slide11.jpg" alt="Slide1">
+		      <div class="carousel-caption">
+		      	<p id="carousel_caption_slide1" class="display-3">Enjoy better</p>
+		      </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img style="width: 1330px; height: 568px" src="src/slide0001.jpg" alt="Slide2">
+		      <img style="width: 1374px; height: 573px" src="src/slide0001.jpg" alt="Slide2">
+		      <div class="carousel-caption">
+		      	<p id="carousel_caption_slide2" class="display-3">... with us</p>
+		      </div>
 		    </div>
 		    <div class="carousel-item">
-		      <img style="width: 1330px; height: 568px" src="src/slide0002.jpg" alt="Slide3">
+		      <img style="width: 1374px; height: 573px" src="src/slide0002.jpg" alt="Slide3">
+		        <div class="carousel-caption">
+		      	<p id="carousel_caption_slide3" class="display-3">you wouldn't think it's real ...</p>
+		      	</div>
 		    </div>
+		</div>
 		    <div class="carousel-item">
-		      <img style="width: 1330px; height: 568px" src="src/slide8.jpg" alt="Slide4">
+		      <img style="width: 1374px; height: 573px" src="src/slide8.jpg" alt="Slide4">
+		      <div class="carousel-caption">
+		      	<p id="carousel_caption_slide4" class="display-3">... until you discover it</p>
 		    </div>
 	 	</div>
-	 	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+	 	<div><a class="carousel-control-prev" href="#demo" data-slide="prev">
 	    	<span class="carousel-control-prev-icon"></span>
 	  	</a>
 	  	<a class="carousel-control-next" href="#demo" data-slide="next">
 	    	<span class="carousel-control-next-icon"></span>
-	  	</a>
+	  	</a></div>
 	</div>
-	<p class="display-1">Waittt</p>
+</div>
+<div class="jumbotron jumbotron-fluid">
+  		<div class="container-fluid">
+    		<h1 class="display-4">TIPS<</h1> 
+    		<p style="font-size: 14px;">See what other people reviewing in the next section. And you will discover a tons of fantastic things on it. So, let's get started!</p> 
+  		</div>
+  		<p class="display-4"><span class="badge badge-light text-warning">FOCUS</span>Admin page for tomorrow</p>
+</div>
 </body>
 </html>
