@@ -39,7 +39,9 @@
 	   		    <input class="nav-link form-control form-control-sm mr-sm-2" style="width: 200px; height: 28px;" type="text" placeholder="">
 	    		<button class="nav-link-sm btn btn-secondary btn-sm" type="submit">SEARCH</button>
 	  		</form>
-	  		<button id="btn_login" class="btn btn-info btn-sm nav-item-sm" type="submit">ĐĂNG NHẬP</button>
+	  		<form id="btn_login" method="get" action="login.php">
+	  			<input class="btn btn-sm btn-info nav-item-sm" type="submit" value="ĐĂNG NHẬP">
+	  		</form>
 		</nav>
 		</div>
 		<div id="demo" class="carousel slide container-fluid" style="margin-top: 48px;" data-ride="carousel">
@@ -68,13 +70,13 @@
 		      	<p id="carousel_caption_slide3" class="display-3">you wouldn't think it's real ...</p>
 		      	</div>
 		    </div>
-		</div>
 		    <div class="carousel-item">
 		      <img style="width: 1374px; height: 573px" src="src/slide8.jpg" alt="Slide4">
 		      <div class="carousel-caption">
 		      	<p id="carousel_caption_slide4" class="display-3">... until you discover it</p>
-		    </div>
-	 	</div>
+		      </div>
+	 		</div>
+	 	</div>	
 	 	<div><a class="carousel-control-prev" href="#demo" data-slide="prev">
 	    	<span class="carousel-control-prev-icon"></span>
 	  	</a>

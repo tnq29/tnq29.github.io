@@ -82,3 +82,7 @@ nav button {
 li a {
 	font-size: 15px;
 }
+
+#btn_login {
+	margin-left: 10px;
+}
