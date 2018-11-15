@@ -1,9 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <style>
+
+  body {
+  	position: relative;
+  }
+
+  ul.nav-pills {
+      position: fixed;
+
+  }
+  div.col-8 div {
+      height: 150px;
+  }
+  </style>
+
 </head>
-<body>
-	<h2>HEllo</h2>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+  <div class="container-fluid">
+    <div class="row" >
+      <nav class="col-sm-3 col-4" id="myScrollspy">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active bg-info text-light" href="#section1">Món chính</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link text-info" href="#section2">Món ăn vặt</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link bg-light text-info" href="#section3">Đồ uống</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link bg-light text-info" href="#section4">Món chay</a>
+          </li>
+        </ul>
+      </nav>
+     <div class="col-sm-9 col-8" >
+          <p id="section1" class="display-4">Món chính <img src="src/logo-sm.png" height="68px" width="189px"></p>
+          <p>Let's check it out!</p>
+          <iframe style="border-width: 0px;" src="mon_chinh.html" class="container-fluid" height="1000px;"></iframe>
+          <!-- <h1>Món ăn vặt</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+          <h1 id="section3">Đồ uống</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p>
+          <br><br><br>
+          <h1>Món chay</h1>
+          <p>Try to scroll this page and look at the menu while scrolling!</p> -->
+     </div>
+   </div>
+ </div>
 </body>
 </html>
